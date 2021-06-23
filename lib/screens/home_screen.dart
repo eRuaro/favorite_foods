@@ -9,6 +9,17 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Favorite Dishes'),
       ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            decoration: BoxDecoration(),
+            child: Image(
+              image: AssetImage('assets/food.jpg'),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
