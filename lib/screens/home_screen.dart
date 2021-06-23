@@ -10,14 +10,26 @@ class HomeScreen extends StatelessWidget {
         title: Text('My Favorite Dishes'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(40),
-            child: Container(
-              width: 400,
+          Padding(
+            padding: EdgeInsets.all(20),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(40),
               child: Image(
+                width: 470,
                 image: AssetImage('assets/food.jpg'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(25),
+            child: Text(
+              'Dishes List',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ),
