@@ -12,10 +12,13 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            decoration: BoxDecoration(),
-            child: Image(
-              image: AssetImage('assets/food.jpg'),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(40),
+            child: Container(
+              width: 400,
+              child: Image(
+                image: AssetImage('assets/food.jpg'),
+              ),
             ),
           ),
         ],
