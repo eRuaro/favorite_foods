@@ -2,7 +2,7 @@ import 'package:favorite_foods/models/dish.dart';
 
 final _dish1 = Dish(
   dishName: 'Mango Shake',
-  imageFile: 'food.jpg',
+  imageFile: 'mango-shake.jpg',
   ingredients: [
     '2 Mango Fruit',
     '1 and 1/2 Cups of Milk',
@@ -44,7 +44,7 @@ final _dish2 = Dish(
 
 final _dish3 = Dish(
   dishName: 'Scrambled Eggs',
-  imageFile: 'scrambled-egg',
+  imageFile: 'scrambled-egg.jpg',
   ingredients: [
     'Eggs',
     '1 Pinch of Salt',
