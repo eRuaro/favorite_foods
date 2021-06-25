@@ -2,7 +2,7 @@ import 'package:favorite_foods/models/dish.dart';
 
 final _dish1 = Dish(
   dishName: 'Mango Shake',
-  imageFile: 'assets/food.jpg',
+  imageFile: 'food.jpg',
   ingredients: [
     '2 Mango Fruit',
     '1 and 1/2 Cups of Milk',
@@ -19,8 +19,25 @@ final _dish1 = Dish(
 );
 
 final _dish2 = Dish(
-  dishName: dishName,
-  imageFile: imageFile,
-  ingredients: ingredients,
-  cookingSteps: cookingSteps,
+  dishName: 'Filipino Fried Chicken',
+  imageFile: 'filipino-fried-chicken.jpg',
+  ingredients: [
+    '1 Cup cornstarch',
+    '1/2 Cup White Sugar',
+    '1/2 Cup All Purpose Flour',
+    '1/2 Cup Green Onion',
+    '2 Tablespoons Salt',
+    '1 Teaspoon Monosodium Glumate',
+    '4 Eggs, slightly beaten',
+    '1/4 Cup Soy Sauce',
+    '10 Cloves Garlic, Minced',
+    '5 Pounds Chicken Legs',
+    'Vegetable Oil',
+  ],
+  cookingSteps: [
+    'Combine cornstarch, sugar, flour, salt, and monosodium glutamate in a large bowl',
+    'Add eggs, green onions, soy sauce, and garlic',
+    'Pat chicken dry and add to the sauce',
+    'Cover and refrigerate until marinated, 8 hours to overnight',
+  ],
 );

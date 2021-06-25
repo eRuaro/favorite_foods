@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          DishButton(),
+
         ],
       ),
     );

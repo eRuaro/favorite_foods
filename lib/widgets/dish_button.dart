@@ -1,11 +1,12 @@
 import 'package:favorite_foods/screens/dish_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:favorite_foods/models/dish.dart';
 
 class DishButton extends StatelessWidget {
-  const DishButton({
-    Key? key,
-  }) : super(key: key);
+  final Dish dish;
+
+  const DishButton({required this.dish});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,7 @@ class DishButton extends StatelessWidget {
         ),
         child: Center(
           child: Text(
-            'Mango Shake',
+            dish.dishName,
             style: TextStyle(
               color: Colors.black,
               fontSize: 24,
