@@ -20,6 +20,7 @@ class DishButton extends StatelessWidget {
         );
       },
       child: Container(
+        padding: EdgeInsets.all(5),
         height: 70,
         width: 250,
         decoration: BoxDecoration(
