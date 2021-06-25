@@ -6,5 +6,10 @@ class Dish {
   final List<String> ingredients;
   final List<String> cookingSteps;
 
-  const Dish({required this.dishName, required this.imageFile, required this.ingredients, required this.cookingSteps});
+  const Dish({
+    required this.dishName,
+    required this.imageFile,
+    required this.ingredients,
+    required this.cookingSteps,
+  });
 }

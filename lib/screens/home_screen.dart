@@ -1,3 +1,4 @@
+import 'package:favorite_foods/widgets/dish_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -36,35 +37,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          MaterialButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => MangoShakeScreen(),
-                ),
-              );
-            },
-            child: Container(
-              height: 70,
-              width: 250,
-              decoration: BoxDecoration(
-                color: Colors.amber,
-                border: Border.all(),
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Center(
-                child: Text(
-                  'Mango Shake',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 24,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-              ),
-            ),
-          ),
+          DishButton(),
         ],
       ),
     );
