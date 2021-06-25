@@ -9,8 +9,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Favorite Dishes'),
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      body: ListView(
+        physics: BouncingScrollPhysics(),
         children: [
           Padding(
             padding: EdgeInsets.all(20),
@@ -33,6 +33,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
+
         ],
       ),
     );
