@@ -57,3 +57,9 @@ final _dish3 = Dish(
     'When the Egg is no Longer a Liquid, put the Egg into a Plate'
   ]
 );
+
+final List<Dish> dishes = [
+  _dish1,
+  _dish2,
+  _dish3,
+];
