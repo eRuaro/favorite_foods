@@ -41,3 +41,19 @@ final _dish2 = Dish(
     'Cover and refrigerate until marinated, 8 hours to overnight',
   ],
 );
+
+final _dish3 = Dish(
+  dishName: 'Scrambled Eggs',
+  imageFile: 'scrambled-egg',
+  ingredients: [
+    'Eggs',
+    '1 Pinch of Salt',
+  ],
+  cookingSteps: [
+    'Whisk the Eggs with the Salt in a Bowl',
+    'Add the Whisked Eggs to the Pan',
+    'Scramble the eggs: Stir slowly with a rubber or silicone spatula',
+    'Fold the Eggs over themselves when Lumps Form, and Shake Pan',
+    'When the Egg is no Longer a Liquid, put the Egg into a Plate'
+  ]
+);

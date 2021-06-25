@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class Dish {
   final String dishName;
   final String imageFile;
